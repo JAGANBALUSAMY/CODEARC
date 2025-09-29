@@ -27,21 +27,21 @@ export const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET || '';
 
 export const NAME_MAX_LENGTH = 64;
 
-export const SITE_NAME = 'CodeX - Code Collaboration Platform';
+export const SITE_NAME = 'CODEARC - Code Collaboration Platform';
 export const SITE_DESCRIPTION =
-  'Your collaborative coding space, reimagined. Code together now on CodeX, no sign-up required.';
+  'Your collaborative coding space, reimagined. Code together now on CODEARC, no sign-up required.';
 export const INVITED_DESCRIPTION =
   'You have been invited to a coding session. Happy coding!';
 export const LATENCY_TEST_TITLE = 'Server Latency Test';
 export const LATENCY_TEST_DESCRIPTION =
-  'Test your latency to the CodeX server.';
+  'Test your latency to the CODEARC server.';
 export const GITHUB_OAUTH_TITLE = 'GitHub OAuth Callback';
 export const GITHUB_OAUTH_DESCRIPTION =
   'This page is used to handle the GitHub OAuth callback.';
 export const NAME = 'Jagan';
 export const PORTFOLIO_URL = 'https://example.com';
 export const CONTACT_URL = 'https://example.com/contact';
-export const REPO_URL = 'https://example.com/jaganb/codex';
+export const REPO_URL = 'https://example.com/jaganb/CODEARC';
 export const GITHUB_URL = 'https://example.com/jaganb';
 
 export const EDITOR_SETTINGS_KEY = 'editor-settings';

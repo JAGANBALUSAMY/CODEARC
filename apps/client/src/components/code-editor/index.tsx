@@ -26,9 +26,9 @@ import {
   CodeServiceMsg,
   RoomServiceMsg,
   ScrollServiceMsg,
-} from '@codex/types/message';
-import type { Cursor, EditOp } from '@codex/types/operation';
-import type { Scroll } from '@codex/types/scroll';
+} from '@CODEARC/types/message';
+import type { Cursor, EditOp } from '@CODEARC/types/operation';
+import type { Scroll } from '@CODEARC/types/scroll';
 
 import { getSocket } from '@/lib/socket';
 import type { StatusBarCursorPosition } from '@/components/status-bar';

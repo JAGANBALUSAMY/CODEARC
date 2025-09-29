@@ -8,7 +8,7 @@
  * By Dulapah Vibulsanti (https://dulapahv.dev)
  */
 
-import type { User } from '@codex/types/user';
+import type { User } from '@CODEARC/types/user';
 
 import { getBackgroundColor, getTextColor } from '@/lib/utils';
 

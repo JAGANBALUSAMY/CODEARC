@@ -11,8 +11,8 @@
 
 import type { Server, Socket } from 'socket.io';
 
-import { CodeServiceMsg, RoomServiceMsg } from '@codex/types/message';
-import type { ExecutionResult } from '@codex/types/terminal';
+import { CodeServiceMsg, RoomServiceMsg } from '@CODEARC/types/message';
+import type { ExecutionResult } from '@CODEARC/types/terminal';
 
 import { generateRoomID } from '@/utils/generate-room-id';
 import { normalizeRoomId } from '@/utils/normalize-room-id';

@@ -9,8 +9,8 @@ import { performance } from 'perf_hooks';
 
 import { io as Client } from 'socket.io-client';
 
-import { CodeServiceMsg, RoomServiceMsg } from '@codex/types/message';
-import type { EditOp } from '@codex/types/operation';
+import { CodeServiceMsg, RoomServiceMsg } from '@CODEARC/types/message';
+import type { EditOp } from '@CODEARC/types/operation';
 
 const SERVER_URL = process.env.SERVER_URL;
 const SAMPLES_PER_TEST = 50;

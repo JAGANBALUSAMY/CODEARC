@@ -21,8 +21,8 @@ import { Monaco } from '@monaco-editor/react';
 import { OctagonX, Play } from 'lucide-react';
 import type * as monaco from 'monaco-editor';
 
-import { CodeServiceMsg } from '@codex/types/message';
-import type { ExecutionResult } from '@codex/types/terminal';
+import { CodeServiceMsg } from '@CODEARC/types/message';
+import type { ExecutionResult } from '@CODEARC/types/terminal';
 
 import { getSocket } from '@/lib/socket';
 import { cn } from '@/lib/utils';

@@ -11,11 +11,11 @@ import { performance } from 'perf_hooks';
 
 import { io as Client } from 'socket.io-client';
 
-import { CodeServiceMsg, RoomServiceMsg } from '@codex/types/message';
+import { CodeServiceMsg, RoomServiceMsg } from '@CODEARC/types/message';
 import {
   ExecutionResultType,
   type ExecutionResult,
-} from '@codex/types/terminal';
+} from '@CODEARC/types/terminal';
 
 const SERVER_URL = process.env.SERVER_URL;
 const SAMPLES_PER_TEST = 50;

@@ -13,8 +13,8 @@ import React, { useCallback, useEffect, useState } from 'react';
 
 import { MousePointer2 } from 'lucide-react';
 
-import { PointerServiceMsg } from '@codex/types/message';
-import type { Pointer } from '@codex/types/pointer';
+import { PointerServiceMsg } from '@CODEARC/types/message';
+import type { Pointer } from '@CODEARC/types/pointer';
 
 import { userMap } from '@/lib/services/user-map';
 import { getSocket } from '@/lib/socket';

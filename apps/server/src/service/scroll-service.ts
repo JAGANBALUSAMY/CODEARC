@@ -10,8 +10,8 @@
 
 import type { Socket } from 'socket.io';
 
-import { ScrollServiceMsg } from '@codex/types/message';
-import type { Scroll } from '@codex/types/scroll';
+import { ScrollServiceMsg } from '@CODEARC/types/message';
+import type { Scroll } from '@CODEARC/types/scroll';
 
 import { getUserRoom } from './room-service';
 import { getCustomId } from './user-service';

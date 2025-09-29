@@ -11,8 +11,8 @@
 
 import type { Server, Socket } from 'socket.io';
 
-import { CodeServiceMsg } from '@codex/types/message';
-import type { EditOp } from '@codex/types/operation';
+import { CodeServiceMsg } from '@CODEARC/types/message';
+import type { EditOp } from '@CODEARC/types/operation';
 
 import { getUserRoom } from './room-service';
 import { getCustomId } from './user-service';

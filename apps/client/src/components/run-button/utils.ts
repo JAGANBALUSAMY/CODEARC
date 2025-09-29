@@ -13,11 +13,11 @@ import type { Dispatch, RefObject, SetStateAction } from 'react';
 import { Monaco } from '@monaco-editor/react';
 import type * as monaco from 'monaco-editor';
 
-import { CodeServiceMsg } from '@codex/types/message';
+import { CodeServiceMsg } from '@CODEARC/types/message';
 import {
   ExecutionResultType,
   type ExecutionResult,
-} from '@codex/types/terminal';
+} from '@CODEARC/types/terminal';
 
 import { getSocket } from '@/lib/socket';
 import { parseError } from '@/lib/utils';
@@ -134,7 +134,7 @@ export const executeCode = async (
 
     if (!response.ok) {
       throw new Error(
-        `HTTP error! status: ${response.status}\nThis language may not be supported or the server is down.\nList of supported languages: https://github.com/dulapahv/CodeX/blob/main/manual.md#supported-execution-languages.`,
+        `HTTP error! status: ${response.status}\nThis language may not be supported or the server is down.\nList of supported languages: https://github.com/dulapahv/CODEARC/blob/main/manual.md#supported-execution-languages.`,
       );
     }
 

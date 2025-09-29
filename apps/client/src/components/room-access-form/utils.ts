@@ -13,7 +13,7 @@ import { ChangeEvent } from 'react';
 
 import type { UseFormSetValue } from 'react-hook-form';
 
-import { RoomServiceMsg } from '@codex/types/message';
+import { RoomServiceMsg } from '@CODEARC/types/message';
 
 import { storage } from '@/lib/services/storage';
 import { getSocket } from '@/lib/socket';

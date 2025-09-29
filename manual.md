@@ -67,12 +67,12 @@ Add your API keys and secrets to `.env` in `apps/client` and `apps/server` as ne
 
 ## Getting Started
 
-### Accessing CodeX
+### Accessing CODEARC
 
-CodeX is a web-based application that requires no installation. To access CodeX:
+CODEARC is a web-based application that requires no installation. To access CODEARC:
 
 1. Open your web browser
-2. Navigate to [https://codex.dulapahv.dev/](https://codex.dulapahv.dev/).
+2. Navigate to [https://CODEARC.dulapahv.dev/](https://CODEARC.dulapahv.dev/).
 3. The platform will load automatically in your browser
 
 ### Creating a Room
@@ -215,7 +215,7 @@ The interface is divided into several sections, each section contains multiple p
 
 ## Room Sharing
 
-CodeX allows you to share your room with others using multiple methods:
+CODEARC allows you to share your room with others using multiple methods:
 
 <div align="center">
   <img src="docs/images/share-button.png" alt="Share Room Button" width="200"/>
@@ -241,7 +241,7 @@ CodeX allows you to share your room with others using multiple methods:
 
 ## Code Editor
 
-The Monaco Editor forms the core of CodeX's collaborative coding environment, enabling multiple users to code together in real-time. Key features include:
+The Monaco Editor forms the core of CODEARC's collaborative coding environment, enabling multiple users to code together in real-time. Key features include:
 
 - Real-time synchronization of code changes across all participants
 - Multi-cursor support showing everyone's positions
@@ -359,9 +359,9 @@ At the upper right corner of the terminal panel, you can [Download Output](#down
 
 ### Download Output
 
-File name will be `codex-terminal-<date>--<time>.txt`, for example `codex-terminal-06-01-2025--17-37-28.txt`
+File name will be `CODEARC-terminal-<date>--<time>.txt`, for example `CODEARC-terminal-06-01-2025--17-37-28.txt`
 
-- Terminal output will not contain CodeX welcome message
+- Terminal output will not contain CODEARC welcome message
 - Example output file:
 
     ```txt
@@ -378,11 +378,11 @@ File name will be `codex-terminal-<date>--<time>.txt`, for example `codex-termin
 
 ## GitHub Integration
 
-CodeX allows you to connect your GitHub account to open and save files directly from your repositories.
+CODEARC allows you to connect your GitHub account to open and save files directly from your repositories.
 
 ### Authentication
 
-CodeX requires `repo` access scope to read and write to your repositories. For more information, refer to the [GitHub Access Permissions](#github-access-permissions) section.
+CODEARC requires `repo` access scope to read and write to your repositories. For more information, refer to the [GitHub Access Permissions](#github-access-permissions) section.
 
 To connect your GitHub account:
 
@@ -427,7 +427,7 @@ To disconnect your GitHub account:
   <img src="docs/images/open-from-github.png" alt="Open from Github" width="400"/>
 </div>
 
-CodeX will automatically detect the language of the file and switch the editor's language mode accordingly. Other users' editors will also automatically switch to the same language mode.
+CODEARC will automatically detect the language of the file and switch the editor's language mode accordingly. Other users' editors will also automatically switch to the same language mode.
 
 ### Saving Files to GitHub
 
@@ -692,9 +692,9 @@ For a list of supported file formats, refer to the [Notepad Features](#notepad-f
 
 ## Video & Voice Communication
 
-CodeX supports video and voice communication between participants in a room. You can toggle your camera, microphone, and audio settings in the Video & Voice Communication panel.
+CODEARC supports video and voice communication between participants in a room. You can toggle your camera, microphone, and audio settings in the Video & Voice Communication panel.
 
-Upon joining the room, CodeX will prompt you to grant permissions to access your media devices (camera, microphone, audio).
+Upon joining the room, CODEARC will prompt you to grant permissions to access your media devices (camera, microphone, audio).
 
 <div align="center">
   <img src="docs/images/video-voice-communication.png" alt="Video & Voice Communication" width="200"/>
@@ -935,7 +935,7 @@ Live Preview and Code Execution will run code in a sandboxed environment to prev
 
 ### Data Handling
 
-CodeX does not store any user data on the server except for:
+CODEARC does not store any user data on the server except for:
 
 - Display names
 - User IDs
@@ -947,9 +947,9 @@ All of which are stored temporarily during a session and is cleared once the ses
 
 ### User Privacy
 
-When using CodeX, your data is encrypted in transit using HTTPS and stored securely on the server. However, it is recommended to avoid sharing sensitive information on the platform.
+When using CODEARC, your data is encrypted in transit using HTTPS and stored securely on the server. However, it is recommended to avoid sharing sensitive information on the platform.
 
-CodeX uses [Vercel Analytics](https://vercel.com/docs/analytics) and [Cloudflare Web Analytics](https://developers.cloudflare.com/web-analytics/) to collect anonymous usage data for improving the platform including:
+CODEARC uses [Vercel Analytics](https://vercel.com/docs/analytics) and [Cloudflare Web Analytics](https://developers.cloudflare.com/web-analytics/) to collect anonymous usage data for improving the platform including:
 
 - Country of origin
 - Browser type
@@ -961,19 +961,19 @@ No personal data is collected or stored.
 
 \*Page views is collected from users who visit the homepage only so other pages (e.g. session page with room ID) are neither tracked nor exposed.
 
-CodeX uses [Sentry](https://sentry.io) for error tracking to help identify and fix issues quickly. No personal data is collected or stored. The [Sentry's Session Replay](https://docs.sentry.io/product/explore/session-replay/) feature is enabled for faster debugging, and **all user inputs are masked** to prevent data exposure. Learn more about [how Session Replay captures data while protecting user privacy](https://docs.sentry.io/security-legal-pii/scrubbing/protecting-user-privacy/).
+CODEARC uses [Sentry](https://sentry.io) for error tracking to help identify and fix issues quickly. No personal data is collected or stored. The [Sentry's Session Replay](https://docs.sentry.io/product/explore/session-replay/) feature is enabled for faster debugging, and **all user inputs are masked** to prevent data exposure. Learn more about [how Session Replay captures data while protecting user privacy](https://docs.sentry.io/security-legal-pii/scrubbing/protecting-user-privacy/).
 
 ### GitHub Access Permissions
 
-CodeX uses GitHub OAuth to authenticate users and access repositories. When you connect your GitHub account, CodeX requests only one permission scope:
+CODEARC uses GitHub OAuth to authenticate users and access repositories. When you connect your GitHub account, CODEARC requests only one permission scope:
 
 - `repo` - Grants full access to public and private repositories including read and write access to code, commit statuses, repository invitations, collaborators, deployment statuses, and repository webhooks. **Note**: In addition to repository related resources, the `repo` scope also grants access to manage organization-owned resources including projects, invitations, team memberships and webhooks. This scope also grants the ability to manage projects owned by users. (from [GitHub's Scopes for OAuth apps](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps))
 
-CodeX does not store your GitHub access token. The token is stored securely in your browser's Cookies and is used only for making API requests to GitHub on your behalf.
+CODEARC does not store your GitHub access token. The token is stored securely in your browser's Cookies and is used only for making API requests to GitHub on your behalf.
 
 To prevent unauthorized access to your GitHub account, the stored GitHub access token will expire after 7 days and you will need to reconnect your GitHub account to continue using the GitHub features.
 
-You can revoke access at any time by disconnecting your GitHub account from CodeX by going to `Settings > Github Connection` and clicking `Disconnect`.
+You can revoke access at any time by disconnecting your GitHub account from CODEARC by going to `Settings > Github Connection` and clicking `Disconnect`.
 
 Learn more about [GitHub's Scopes for OAuth apps](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/scopes-for-oauth-apps).
 

@@ -24,9 +24,9 @@ import { useParams, useRouter } from 'next/navigation';
 import type { Monaco } from '@monaco-editor/react';
 import type * as monaco from 'monaco-editor';
 
-import { CodeServiceMsg, RoomServiceMsg } from '@codex/types/message';
-import type { ExecutionResult } from '@codex/types/terminal';
-import type { User } from '@codex/types/user';
+import { CodeServiceMsg, RoomServiceMsg } from '@CODEARC/types/message';
+import type { ExecutionResult } from '@CODEARC/types/terminal';
+import type { User } from '@CODEARC/types/user';
 
 import { initEditorTheme } from '@/lib/init-editor-theme';
 import { userMap } from '@/lib/services/user-map';
