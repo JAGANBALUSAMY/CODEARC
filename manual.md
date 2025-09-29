@@ -1,43 +1,29 @@
-# CodeX User Manual
 
-- [CodeX User Manual](#codex-user-manual)
-  - [Getting Started](#getting-started)
-    - [Accessing CodeX](#accessing-codex)
-    - [Creating a Room](#creating-a-room)
-    - [Joining a Room](#joining-a-room)
-      - [Using a Room ID](#using-a-room-id)
-      - [Using an Invite Link](#using-an-invite-link)
-      - [Scanning QR Code](#scanning-qr-code)
-    - [User Interface Overview](#user-interface-overview)
-      - [Top Bar](#top-bar)
-      - [Main Work Area (Split into Panels)](#main-work-area-split-into-panels)
-      - [Bottom Panel](#bottom-panel)
-      - [Status Bar](#status-bar)
-  - [Room Sharing](#room-sharing)
-    - [Room ID](#room-id)
-    - [Invite Link](#invite-link)
-    - [QR Code](#qr-code)
-  - [Code Editor](#code-editor)
-    - [Cursor](#cursor)
-    - [Text Selection](#text-selection)
-    - [Code Editor Settings](#code-editor-settings)
-  - [Follow Mode](#follow-mode)
-    - [Enabling Follow Mode](#enabling-follow-mode)
-    - [Limitations](#limitations)
-  - [Code Execution](#code-execution)
-    - [Passing Arguments and Input (stdin)](#passing-arguments-and-input-stdin)
-  - [Shared Terminal](#shared-terminal)
-    - [Download Output](#download-output)
-    - [Clear Output](#clear-output)
-  - [GitHub Integration](#github-integration)
-    - [Authentication](#authentication)
-    - [Disconnecting GitHub Account](#disconnecting-github-account)
-    - [Opening Files from GitHub](#opening-files-from-github)
-    - [Saving Files to GitHub](#saving-files-to-github)
-  - [Live Preview](#live-preview)
-    - [Enabling/Disabling Live Preview](#enablingdisabling-live-preview)
-    - [Limitations of Live Preview](#limitations-of-live-preview)
-    - [Live Preview Example](#live-preview-example)
+# CODEARC Manual
+
+## Getting Started
+
+1. Install dependencies:
+   ```
+   pnpm install
+   ```
+2. Start the app:
+   ```
+   pnpm dev
+   ```
+   - Frontend: http://localhost:3000
+   - Backend: http://localhost:3001
+
+## Features
+- Real-time code collaboration
+- Shared terminal
+- Live UI preview
+- GitHub integration
+- Shared notepad
+- Video & voice chat
+
+## Environment Setup
+Add your API keys and secrets to `.env` in `apps/client` and `apps/server` as needed.
       - [Example 1: HTML with Tailwind CSS](#example-1-html-with-tailwind-css)
       - [Example 2: HTML with Alpine.js, GSAP, and Chart.js](#example-2-html-with-alpinejs-gsap-and-chartjs)
   - [Notepad](#notepad)
