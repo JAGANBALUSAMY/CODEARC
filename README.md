@@ -1,42 +1,32 @@
+
 # CODEARC - Code Collaboration Platform
 
-<div align="center">
-  <a href="https://CODEARC.dulapahv.dev/">
-    <img src="apps/client/public/images/cover.png" width="630" alt="CODEARC cover image"/>
-  </a>
-</div>
+## Local Development
 
-<br />
-
-<div align="center">
-  <a href="https://github.com/dulapahv/CODEARC/actions/workflows/playwright.yml"><img src="https://github.com/dulapahv/CODEARC/actions/workflows/playwright.yml/badge.svg"></a>
-  <a href="https://github.com/dulapahv/CODEARC/actions/workflows/jest.yml"><img src="https://github.com/dulapahv/CODEARC/actions/workflows/jest.yml/badge.svg"></a>
-</div>
-<div align="center">
-  <a href="https://github.com/dulapahv/CODEARC/issues"><img src="https://img.shields.io/github/issues/dulapahv/CODEARC.svg?style=flat" /></a>
-<!--   <a href="https://codeclimate.com/github/dulapahv/CODEARC/maintainability"><img src="https://api.codeclimate.com/v1/badges/3984a19491b5e90cfa08/maintainability" /></a> -->
-</div>
-
-<br />
-
-**CODEARC is an online code collaboration platform that enables real-time coding, cursor sharing, live UI preview, and video communication with integrated Git support—no sign-up required.**
-
-**✨ Try now at [CODEARC.dulapahv.dev](https://CODEARC.dulapahv.dev/)**
-
-> This project is part of the course "COMPSCI4025P Level 4 Individual Project" at the University of Glasgow.
-
-For detailed usage instructions and feature documentation, please see the **[User Manual](manual.md)**.
+1. Install dependencies:
+   ```
+   pnpm install
+   ```
+2. Start the app:
+   ```
+   pnpm dev
+   ```
+   - Frontend: http://localhost:3000
+   - Backend: http://localhost:3001
 
 ## Features
+- Real-time code collaboration
+- Shared terminal
+- Live UI preview
+- GitHub integration
+- Shared notepad
+- Video & voice chat
 
-- **Real-time Collaboration** - Code together in real-time with cursor sharing, highlighting, and follow mode
-- **Shared Terminal** - Execute code and see results together with over 80 supported languages
-- **Live Preview** - Preview UI changes instantly with loaded libraries like Tailwind CSS, and more
-- **GitHub Integrated** - Save your work and open files from your repositories
-- **Shared Notepad** - Take notes together in real-time with rich text and markdown support
-- **Video & Voice** - Communicate with your team using video and voice chat
+## Environment Setup
+Add your API keys and secrets to `.env` in `apps/client` and `apps/server` as needed.
 
-## Table of Contents
+## License
+MIT
 
 - [CODEARC - Code Collaboration Platform](#CODEARC---code-collaboration-platform)
   - [Features](#features)
